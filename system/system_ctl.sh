@@ -1,8 +1,11 @@
-# Activate Services
-alias sys:start="sudo systemctl start"
-alias sys:stop="sudo systemctl stop"
-alias sys:status="sudo systemctl status"
-alias sys:enable="sudo systemctl enable"
-alias sys:disable="sudo systemctl disable"
-alias sys:restart="sudo systemctl restart"
-alias sys:reload="sudo systemctl reload"
+# Improve aliases by bringing the common root `sc|scd` + `sre` for action + `u` for user
+alias sc='systemctl'
+alias scu='systemctl --user'
+alias scdr='systemctl daemon-reload'
+alias scdru='systemctl --user daemon-reload'
+alias scr='systemctl restart'
+alias scru='systemctl --user restart'
+alias sce='systemctl stop'
+alias sceu='systemctl --user stop'
+alias scs='systemctl start'
+alias scsu='systemctl --user start'
