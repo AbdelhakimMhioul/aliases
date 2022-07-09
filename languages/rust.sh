@@ -1,0 +1,13 @@
+# Rust Aliases
+alias cg="cargo"
+alias ccl="cg clean"
+alias cch="cg check"
+alias cb="cg build"
+alias cr="cg run"
+alias ca="cg add"
+alias rn="rustup override set nightly"
+alias cn="cg new"
+alias ci="cg install"
+alias cdoc="cg doc"
+alias cdoc-open="cg doc --open"
+alias cdoc-publish="cg doc --publish"
