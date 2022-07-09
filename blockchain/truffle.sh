@@ -1,0 +1,10 @@
+# Truffle Aliases
+alias trt="truffle test"
+alias trmigr="truffle migrate"
+alias trc="truffle compile"
+alias trcr:migr="truffle create migration"
+alias trdev="truffle develop"
+alias trdep="truffle deploy --network"
+alias trdep:migr="truffle deploy --network --migrate"
+alias trdep:migr:reset="truffle deploy --network --migrate --reset"
+alias trdep:reset="truffle deploy --network --reset"
