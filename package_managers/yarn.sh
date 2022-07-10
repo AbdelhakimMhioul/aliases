@@ -24,3 +24,9 @@ alias yain='yarn info'
 alias yali='yarn licenses ls'
 alias yaloi='yarn login'
 alias yaloo='yarn logout'
+
+### Custom Commands
+# Reset yarn (delete node_modules and reinstall)
+alias resetyarn="rm yarn.lock && rm -rf node_modules && yarn"
+# Show remote dist-tags
+alias yarnd="yarn info $1 dist-tags"
