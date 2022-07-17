@@ -4,7 +4,7 @@ alias npmu="npm update"
 alias npmr="npm run"
 alias npmls="npm list"
 alias npmrm="npm remove"
-alias npm:proxy="npm --proxy http://10.23.201.11:3128"
+alias npmproxy="npm --proxy http://10.23.201.11:3128"
 
 ### Custom Commands
 # Reset npm (delete node_modules and reinstall)

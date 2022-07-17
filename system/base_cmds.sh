@@ -17,7 +17,4 @@ alias m="micro"      # You should have micro installed.
 alias sm="sudo micro"
 alias f="fuck"       # You have TheFuck installed.
 alias fy="fuck -y"
-
-# Custom Commands
-alias openzshrc="open -a $1 ~/.zshrc"     # In $1 you can specify the editor you want to use.
-alias loadzshrc="source ~/.zshrc"      # Loads your zshrc file.
+alias c="clear"
